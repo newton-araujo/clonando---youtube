@@ -1,0 +1,147 @@
+@import url(/CSS/reset.css);
+
+.header {
+ display: flex;
+ justify-content: space-between;
+ padding: 20px;
+ align-items: center;
+ flex-wrap: wrap;
+}
+.inicio {
+    display: flex;
+    gap: 15px;
+}
+
+.menu {
+    display: flex;
+}
+
+.search {
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.search input {
+    width: 400px;
+    padding: 0 4px 0 32px;
+}
+
+.search #btn-search {
+    border: 1px solid gray;
+    background-color: gray;
+}
+
+
+.menu li {
+    margin: 10px;
+}
+
+/*Main (video + coluna)*/
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.tela1 {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;        
+}
+
+.tela1 #video {
+    width: 800px;
+    height: 500px;
+}
+
+.tela1 p {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.tela2 {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 15px;
+    margin-right: 20px;
+    align-items: flex-start;
+    margin-left: 40px;
+}
+
+
+.tela2 .item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    gap: 10px;
+    margin-right: 90px;
+
+}
+
+.tela2 span {
+    font-size: .9rem;
+    color: black;
+    font-weight: bold;
+}
+
+.tela2 span p {
+    color: #515151;
+    font-size: .7rem;
+}
+
+.inscreva {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+/*barra do video*/
+#btn-insc {
+    color: white;
+    font-size: 1rem;
+    background: red;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.inscreva a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    padding: 2px;
+    color: black;
+}
+
+.inscreva #img-item {
+    margin: 1px;
+    width: 22px;
+
+}
+.inscreva #channel {
+    margin-left: 5px;
+    cursor: pointer;  
+}
+
+/*informações adicionais*/
+
+#view {
+    font-size: 1rem;
+    margin-left: 5px;   
+}
+
+#detalhe {
+    font-size: 0.9rem;
+    color: #515151;
+}
